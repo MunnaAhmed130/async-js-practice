@@ -10,7 +10,7 @@ const getTodos = (callback) => {
         }
     });
 
-    request.open("GET", "todos.json");
+    request.open("GET", "todos/todos.json");
     request.send();
 };
 
