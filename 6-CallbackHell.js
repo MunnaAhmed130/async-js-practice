@@ -23,3 +23,13 @@ getTodos("todos/luigi.json", (err, data) => {
         });
     });
 });
+
+// getTodos("todos/luigi.json", (err, data) => {
+//     console.log(data);
+// });
+// getTodos("todos/mario.json", (err, data) => {
+//     console.log(data);
+// });
+// getTodos("todos/shaun.json", (err, data) => {
+//     console.log(data);
+// });
